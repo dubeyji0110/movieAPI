@@ -35,6 +35,6 @@ function getResults(query) {
                 <div class="moreinfo"><a href="https://www.imdb.com/title/${movie.Search[a].imdbID}" target="_blank">Watch</a></div>`;
             }
         }).catch(movie => {
-            alert(`Movie Not Found!`);
+            alert(`Permssion Denied By your Browser! or Movie Not Found!`);
         });
 }
