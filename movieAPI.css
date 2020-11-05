@@ -55,7 +55,7 @@ html{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 70vh;
+    min-height: 70vh;
 }
 
 #content .box{
