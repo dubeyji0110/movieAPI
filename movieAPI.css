@@ -116,7 +116,7 @@ html{
 }
 
 footer{
-    position: fixed;
+    position: relative;
     bottom: 0;
     display: flex;
     justify-content: center;
