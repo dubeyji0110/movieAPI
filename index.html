@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie API</title>
-    <link rel="stylesheet" href="./movieAPI.css">
+    <title>Shows and Movies API | Devansh Dubey</title>
+    <link rel="stylesheet" href="./tvShowAPI.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="navbar">
-        <input type="search" name="" id="" class="search-box" placeholder="Search Movie Here..." />
-        <button class="btn">Search</button>
-    </div>
-
-    <div id="content"></div>
-
+    <header class="" id="header">
+        <h1>Shows and Movies API</h1>
+        <form id="input-box">
+            <input type="text" name="q" id="queryBox" autocomplete="off" placeholder="Search for TV Shows...">
+            <button id="submit" type="button">Search</button>
+        </form>
+    </header>
+    <section class="filterBox">
+        <ul>
+            <li class="list active" data-filter="All">All</li>
+            <li class="list" data-filter="series">Series</li>
+            <li class="list" data-filter="movie">Movies</li>
+        </ul>
+    </section>
+    <section id="main-content"></section>
     <footer>
-        <p>Designed By: Devansh Dubey</p>
+        <p>Designed with 💖 By: Devansh Dubey</p>
     </footer>
-
-    <script src="./movieAPI.js"></script>
+    <script src="./tvShowAPI.js"></script>
 </body>
 </html>
