@@ -210,6 +210,10 @@ header.toTop ~ #main-content{
     .filterBox{
         top: 125px;
     }
+
+    header.toTop ~ #main-content{
+        margin-top: 150px;
+    }
 }
 
 .title{
